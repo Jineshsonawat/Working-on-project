@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
+
+    <link href="style.css" rel="stylesheet" />
+
+
 </head>
 
 <body>
+
+
     <h1>Jinesh's component library.</h1>
-    <p>I am attending neog.camp and is currently completing level zero.</p>
-    <p>this is a components library created by me to better design each element.</p>
+    <p><strong>Jinesh</strong> is attending neog.camp and is currently completing level zero.</p>
+    <p>This is a components library created by me to better design each element.</p>
 
     <hr>
 
@@ -24,74 +30,81 @@
 
     <h2>@containers</h2>
     <h3>@fluid container</h3>
-    <p>This is going to be a fluid container. It will go full width of page.
-    </p>
+    <div class="container">This is going to be a fluid container. It will go full width of page.
+    </div>
 
     <h3>@center container</h3>
-    <div>This is going to be a center conatiner. It will go till a givem width and center content</div>
+    <div class="container container-center">This is going to be a center conatiner. It will go till a givem width and
+        center content</div>
 
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link-primary link" href="/">Primary Link</a>
+    <a class="link secondary-link" href="/">Secondary Link</a>
 
     <hr>
 
     <h2>@lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <ul class="non-bullet">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
     </ul>
 
     <h3>inline lists</h3>
-    <ul>
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
+    <ul class="non-bullet">
+        <li class="list-inline">item one</li>
+        <li class="list-inline">item two</li>
+        <li class="list-inline">item three</li>
     </ul>
 
     <h3>reverse ordered lists</h3>
-    <ol>
-        <li>milk</li>
-        <li>onion</li>
-        <li>yes</li>
+
+    <ol reversed>
+        <li>mango</li>
+        <li>rice</li>
+        <li>iron</li>
     </ol>
 
-    <hr>
+    
+
+    <hr />
 
     <h2>@nav</h2>
-    <h3>Iamfuturedeveloper</h3>
-    <ul>
-        <li>
-            <a href="/">home</a>
-        </li>
-        <li>
-            <a href="/">products</a>
-        </li>
-        <li>
-            <a href="/">about</a>
-        </li>
-    </ul>
+    <nav class="nav container">
+        <div class="bold">Iamfuturedeveloper</div>
+        <ul class="align">
+            <li class="list-inline">
+                <a class="nav-link" href="/"><strong>home</strong></a>
+            </li>
+            <li class="list-inline">
+                <a class="nav-link" href="/">products</a>
+            </li>
+            <li class="list-inline">
+                <a class="nav-link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
 
     <hr>
 
     <h2>@header</h2>
-    <header>
-        <img src="images/image.svg" />
-        <h1>this is heading inside header</h1>
+    <header class="hero">
+        <img class="header-img" src="images/image.svg" />
+        <h1 class="header">this is heading inside header</h1>
     </header>
 
     <hr>
 
     <h2>@sections</h2>
-    <section>
+    <section class="section" >
         <h3>white section</h3>
         <p>this is white in backgroung</p>
     </section>
-    <section>
+
+    <section class="section ov">
         <h3>off- white section</h3>
         <p>this is gray in background</p>
     </section>
@@ -99,19 +112,23 @@
     <hr>
 
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer">
         <h3>header inside footer</h3>
-        <li>
-            <a href="/">socialone</a>
+        <ul class="non-bullet">
+        <li class="list-inline">
+            <a class="h" href="/">socialone</a>
         </li>
-        <li>
-            <a href="/">socialtwo</a>
+        <li class="list-inline">
+            <a class="h" href="/">socialtwo</a>
         </li>
-        <li>
-            <a href="/">socialthree</a>
+        <li class="list-inline">
+            <a class="h" href="/">socialthree</a>
         </li>
+        </ul>
     </footer>
     <hr>
+
+    <div style="height: 20vh;"></div>
 
 </body>
 

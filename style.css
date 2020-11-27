@@ -86,8 +86,7 @@ hr {
     max-width: 350px;
     margin: auto;
     display: block;
-    padding-bottom: 1rem;
-    
+    padding-top: 5rem;    
 }
 .hero{
     padding-bottom: 0rem;
@@ -97,6 +96,10 @@ hr {
     padding: 2rem;
     text-align: center;
     color:var(--gray-color)
+}
+
+.assign{
+    text-align:center ;
 }
 
 /** section **/
@@ -123,6 +126,10 @@ hr {
     padding: 1rem;
     border-top-right-radius: 1rem;
     margin-top: 2rem;
+}
+
+.hh{
+     padding-left: 2.25rem;
 }
 
 .h{

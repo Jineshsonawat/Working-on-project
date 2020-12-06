@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 100%;
+    max-width: ;
 }
 
 :root {
@@ -78,7 +78,7 @@ hr {
 .bold {
     font-weight: bold;
     font-size: 1.3rem;
-    margin: auto;
+    
 }
 
 /** header **/
@@ -104,6 +104,13 @@ hr {
 }
 
 /** section **/
+div{
+    display: block;
+}
+
+section{
+    display: block;
+}
 
 .section{
     padding: 0.3rem;

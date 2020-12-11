@@ -86,9 +86,11 @@ hr {
 .header-img{
     max-width: 350px;
     margin: auto;
+
     display: block;
     padding-top: 5rem;    
 }
+
 .hero{
     padding-bottom: 0rem;
 }

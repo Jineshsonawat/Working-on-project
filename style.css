@@ -21,6 +21,10 @@ hr {
 .container-center {
     max-width: 900px;
     margin:auto;
+    
+}
+.center{
+    text-align: center;
 }
 
 
@@ -124,7 +128,7 @@ section{
 
 .ov{
     background-color:#F3F4F6;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
 }
 .space{
     margin-top: 2rem;
